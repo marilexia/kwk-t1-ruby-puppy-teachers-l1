@@ -13,7 +13,11 @@ def self.all
   # @all.each do |dog|
   #   puts dog.name
   # end
-
+  dog_hash = Hash.new(0)
+    @@genres.each do |g|
+      genre_hash[g] += 1
+    end
+    return genre_hash
 end
 
 def self.clear_all
