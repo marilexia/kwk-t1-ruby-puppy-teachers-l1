@@ -13,6 +13,7 @@ def self.all
   @all.each do |dog|
     puts dog.name
   end
+  return @@all
 end
 
 def self.clear_all
