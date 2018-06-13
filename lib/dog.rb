@@ -13,7 +13,7 @@ end
 
 def self.all
   @all.each do |dogs|
-    puts dog.name
+    puts dogs.name
   end
 end
 
