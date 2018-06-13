@@ -14,7 +14,6 @@ def self.all
   #   puts dog.name
   # end
 
-  @all.uniq
 end
 
 def self.clear_all
