@@ -14,8 +14,8 @@ def self.all
   #   puts dog.name
   # end
   dog_hash = Hash.new(0)
-    @@all.each do |g|
-      genre_hash[g] += 1
+    @@all.each do |d|
+      dog_hash[g] += 1
     end
     return genre_hash
 end
